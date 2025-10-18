@@ -12,6 +12,7 @@
     box-sizing:border-box;
     font-family:sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -461,6 +462,37 @@ main.main-about .img-pro .container-pik{
     .main-contact form{
     height: 70vh;
     width: 80%;}
+
+    .txt-pro h1{
+        font-size:18px;
+    }
+    .txt-pro h2{font-size:16px}
+    .txt-pro p{
+        font-size:14px
+    }
+  
+    .social li a{
+        font-size:16px;
+    }
+    .txt-pro button{
+        font-size:14px;
+        height:35px;
+    }
+
+    .card .icon-content i.bi{
+        font-size:25px;
+    }
+    .card h1{
+        font-size:19px;
+    }
+    .card p{
+        font-size:13px;
+    }
+    .card button{
+        font-size:14px;
+        height:30px;
+    }
+    footer p{font-size:14px;}
  
 } 
 
@@ -484,4 +516,131 @@ transition: all .8s ease;
 .animate-fade.ativar{
     transform: translateX(0);
     opacity: 1;
+}
+
+@media (max-width:450px){
+    .logo h1{font-size:22px}
+    .txt-pro h2{
+        font-size:14px;
+    }
+    .txt-pro .txt-mb{
+        font-size:20px;
+    }
+    .txt-pro h1{
+        font-size:16px;
+    }
+    .txt-pro p{
+        font-size:14px
+    }
+    .social li{
+        width:25px;
+        height:25px;
+    }
+    .social i.bi{
+        font-size:16px;
+
+    }
+    .txt-pro button{
+        padding:4px 8px;
+        font-size:14px;
+        height:35px;
+        width:120px;
+    }
+    .card button{
+        height:26px;
+        font-size:15px;
+    }
+    footer p{
+    font-size:11px;
+}
+}
+
+@media (max-width:350px){
+    .logo h1{font-size:20px}
+    .txt-pro h2{
+        font-size:12px;
+    }
+    .txt-pro h1{
+        font-size:14px;
+    }
+    .txt-pro p{
+        font-size:12px
+    }
+    .social li{
+        width:20px;
+        height:20px;
+    }
+    .social i.bi{
+        font-size:14px;
+    }
+    .txt-pro button{
+        padding:4px 8px;
+        font-size:12px;
+        height:35px;
+        width:120px;
+    }
+        main.main-hire{
+        gap: 10px;
+    }
+
+    main.main-about{
+        gap: 10px;
+    }
+
+    main.main-services{
+        gap: 20px;
+    }
+
+    .img-pro .container-pik{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;}
+
+    .card .icon-content i.bi{
+    font-size:20px;
+}
+.card h1{
+    font-size:18px;
+}
+.card p{
+    font-size:12px;
+}
+
+.card button{
+    width:120px;
+    height:35px;
+    font-size:14px;
+
+}
+
+.main-contact .form p{
+    font-size:12px;
+}
+.main-contact .form .rest input{
+    font-size:12px;
+    height:30px;
+}
+.main-contact .form textarea{
+    font-size:12px;
+    height:60px;
+}
+.main-contact .form button{
+    font-size:14px;
+    height:30px;
+    padding:0 10px;
+    gap:10px;
+}
+footer p{
+    font-size:10px;
+}
+
+.main-services{
+    height:130vh;
+}
+.main-about{
+    height:180vh;
+}
+.main-home{
+    height:180vh;
+}
 }
