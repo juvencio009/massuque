@@ -553,6 +553,15 @@ transition: all .8s ease;
     footer p{
     font-size:11px;
 }
+.main-about{
+    margin-bottom:30px;
+}
+.main-services{
+    height:130vh;
+}
+ .main-contact{
+    margin-top:50px;
+}
 }
 
 @media (max-width:350px){
