@@ -201,14 +201,14 @@ main.main-about{
     animation: fade 2s linear infinite alternate;
 }
 main.main-hire .img-pro .container-pik{
-    background-image:url('images/render.png');
+    background-image:url('images/render.jpg');
     border-top: 0;
     background-color: #000000;;
     background-size:100%;
     background-position: top;
 }
 main.main-about .img-pro .container-pik{
-    background-image:url('images/render.png');
+    background-image:url('images/render.jpg');
     border-top: 0;
     background-size:100%;
     background-position: top;
